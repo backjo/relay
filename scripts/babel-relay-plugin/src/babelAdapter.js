@@ -25,7 +25,7 @@ function babelAdapter(
     };
   }
 ): mixed {
-  if (Plugin == null || /^6\./.test(babelVersion)) {
+  if (Plugin == null || /^6\./.test(babelVersion) || true) {
     // Babel 6.
     return visitorsBuilder(t);
   }

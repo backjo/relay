@@ -1,9 +1,9 @@
 {
-  "name": "babel-relay-plugin",
+  "name": "@jback/babel-relay-plugin",
   "version": "0.8.1",
   "description": "Babel Relay Plugin for transpiling GraphQL queries for use with Relay.",
   "license": "BSD-3-Clause",
-  "repository": "facebook/relay",
+  "repository": "backjo/relay",
   "main": "lib/getBabelRelayPlugin.js",
   "scripts": {
     "build": "node scripts/build-lib",
